@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Personal Notes
+This is the completed code base of Leonard Aronson's Stackline code assesment.
+
+The following files were added to complete the assignment:
+
+### Actions
+- actions.js: The file containing all actions creators including an action that makes a mock call to an api using axios.
+
+### Components
+- main-page.js: The main page of the product display which holds both the product side bar and sales graph.
+- product-bar.js: The product side bar which contains all meta information about what product is being viewed.
+- sales-graph.js: The container for the line graph which shows retail sales and wholesale sales.  This files uses Recharts in order to display data in a graphical format.
+
+### Reducers
+- root-reducer.js: The main reducer which contains the modal for the global state tree.
+
+### Utility Files
+- month-enum.js: A file containing a simple object in order to easily transform numerical month values into month string values.
+- product-display.css: The custom css for all components in the project.
+- store.js: The code used to initialize the global store.
+- Webdev_data2.json: The provided data used to mock the api call.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
