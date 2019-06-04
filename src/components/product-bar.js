@@ -7,8 +7,8 @@ class ProductBar extends Component {
   //Generate an array of tags for display for the product tag information
   generateTags() {
     var tagArray = []
-    this.props.tags.forEach((tag) => {
-      tagArray.push(<Badge>{tag}</Badge>)
+    this.props.tags.forEach((tag, index) => {
+      tagArray.push(<Badge id={"product-tag-" + index}>{tag}</Badge>)
     })
     return tagArray;
   }

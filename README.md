@@ -22,6 +22,11 @@ The following files were added to complete the assignment:
 - store.js: The code used to initialize the global store.
 - Webdev_data2.json: The provided data used to mock the api call.
 
+## How To Run
+1) Clone repository from https://github.com/laronson/LeonardAronsonStackLine
+2) Run the command npm start from home directory of project
+3) In your browser, navigate to http://localhost:3000/
+
 
 ## Available Scripts
 
