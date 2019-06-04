@@ -24,7 +24,7 @@ The following files were added to complete the assignment:
 
 ## How To Run
 1) Clone repository from https://github.com/laronson/LeonardAronsonStackLine
-2) Run the command npm start from home directory of project
+2) Run the command npm start from the home directory of the project
 3) In your browser, navigate to http://localhost:3000/
 
 
